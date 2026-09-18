@@ -55,14 +55,14 @@ public class Student {
     public String getPredicate() {
         // TODO: implement the predicate logic per the rules above
         if (gpa >= 3.5) {
-            System.out.println("Cum Laude");
+           return "Cum Laude";
         }
         if (gpa <= 3.5 ) {
-            System.out.println("Very Satisfactory");
+            return "Very Satisfactory";
         }
         if (gpa < 3.0) {
-            System.out.println("Satisfactory");
+            return "Satisfactory";
         }
-        return getPredicate();
+        
     }
 }
