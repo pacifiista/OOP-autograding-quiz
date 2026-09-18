@@ -1,4 +1,4 @@
-package OOP-autograding-quiz
+package id.ac.polinema.oop;
 
 /**
  * Student class.
