@@ -10,9 +10,9 @@ package OOP-autograding-quiz
 public class Student {
 
     // TODO: add fields: studentId (String), name (String), gpa (double)
-    public String studentId;
-    public String name;
-    public double gpa;
+    private String studentId;
+    private String name;
+    private double gpa;
 
 
     /**
