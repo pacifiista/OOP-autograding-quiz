@@ -20,5 +20,5 @@ class StudentConstructorTest {
     void secondObjectIsCreatedSuccessfully() {
         Student s = assertDoesNotThrow(() -> new Student("2141720002", "Jane Smith", 2.80));
         assertNotNull(s);
-    }
+    }  
 }
