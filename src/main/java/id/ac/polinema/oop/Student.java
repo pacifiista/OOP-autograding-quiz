@@ -61,7 +61,7 @@ public class Student {
         } else{
             return "Satisfactory";
         }
-       
+    
         
     }
 }
